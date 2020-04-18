@@ -90,7 +90,7 @@ public:
             {
                 // Define Equipment
                 uint32 shoulders = 0, chest = 0, trinket = 0, weapon = 0, weapon2 = 0, weapon3 = 0, shoulders2 = 0, chest2 = 0, trinket2 = 0;
-                const uint32 bag = 23162;		// Foror's Crate of Endless Resist Gear Storage (36 Slot)
+                // const uint32 bag = 23162;		// Foror's Crate of Endless Resist Gear Storage (36 Slot)
                 const uint32 ring = 50255;		// Dread Pirate Ring (5% XP Boost)
 
                 // Outfit the character with bags and heirlooms that match their class
@@ -454,7 +454,7 @@ public:
                     // Alliance Capital Cities
                 case TEAM_ALLIANCE:
                     player->SetReputation(47, 999999);	// IronForge
-                    player->SetReputation(72, 999999);	// Stormwind 
+                    player->SetReputation(72, 999999);	// Stormwind
                     player->SetReputation(69, 999999);	// Darnassus
                     player->SetReputation(389, 999999);	// Gnomeregan
                     player->SetReputation(930, 999999);	// Exodar
